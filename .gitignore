@@ -1,0 +1,16 @@
+﻿
+# Local environments and generated files
+.venv*/
+__pycache__/
+.vs/
+*.pt
+*.task
+*.mp4
+*.zip
+visual_model*.json
+runs/
+pose_runs/
+pose_dataset/
+yolo_review/
+.env
+.env.*
