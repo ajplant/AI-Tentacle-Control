@@ -1,0 +1,5 @@
+# Use a clean virtual environment. Only one OpenCV wheel should own cv2.
+numpy>=1.26,<3
+opencv-contrib-python>=4.8,<5
+mediapipe>=0.10,<0.11
+pyserial>=3.5,<4
