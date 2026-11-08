@@ -1,0 +1,6 @@
+# For a NEW environment. Your existing .venv-yolo already has Ultralytics/Torch.
+# In that environment, first install only: python -m pip install mediapipe pyserial
+ultralytics==8.4.201
+mediapipe>=0.10.20
+pyserial>=3.5
+numpy>=1.26
