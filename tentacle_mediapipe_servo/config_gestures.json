@@ -1,0 +1,19 @@
+{
+  "serial_port": "COM3",
+  "baudrate": 115200,
+  "camera": 0,
+  "mirror": true,
+  "hand_model": "hand_landmarker.task",
+  "away_mode": "toward-camera",
+  "speed": 0.18,
+  "servo_forward_signs": [1, 1, 1],
+  "direction_tolerance_degrees": 25.0,
+  "up_tolerance_degrees": 20.0,
+  "depth_tolerance_degrees": 25.0,
+  "maximum_frame_age_seconds": 0.15,
+  "maximum_loop_gap_seconds": 0.18,
+  "minimum_hand_confidence": 0.70,
+  "minimum_palm_pixels": 30.0,
+  "arrow_neutral_palm_ratio": 0.35,
+  "minimum_arrow_pixels": 12.0
+}
