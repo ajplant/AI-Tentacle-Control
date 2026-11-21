@@ -1,0 +1,5 @@
+# Use a fresh environment. Only one OpenCV distribution should own cv2.
+mediapipe>=0.10.20,<0.11
+opencv-contrib-python>=4.8,<5
+numpy>=1.26,<3
+pyserial>=3.5,<4
