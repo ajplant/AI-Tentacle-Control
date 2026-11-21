@@ -22,6 +22,8 @@ A custom-trained YOLO26 Nano Pose model tracks five keypoints along the tentacle
 
 These keypoints provide visual feedback for estimating the tentacle’s position and bending direction. The controller uses this feedback—not the detection model alone—to calculate motor corrections and enforce configured movement limits.
 
+Only used in older versions.
+
 ### MediaPipe Hand Landmarker
 
 MediaPipe Hand Landmarker tracks the hand and finger landmarks. The controller uses the wrist and index-finger landmarks to calculate a target position relative to the palm.
