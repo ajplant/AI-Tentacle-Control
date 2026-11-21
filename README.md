@@ -15,13 +15,6 @@ The system combines hand tracking, tentacle pose estimation, and an ESP32-based 
 - Computer running the Python vision and control software
 
 ## Computer Vision Models
-
-### YOLO26 Nano Pose
-
-A custom-trained YOLO26 Nano Pose model tracks five keypoints along the tentacle: the base reference, flexible root, two intermediate landmarks, and tip.
-
-These keypoints provide visual feedback for estimating the tentacle’s position and bending direction. The controller uses this feedback—not the detection model alone—to calculate motor corrections and enforce configured movement limits.
-
 ### MediaPipe Hand Landmarker
 
 MediaPipe Hand Landmarker tracks the hand and finger landmarks. The controller uses the wrist and index-finger landmarks to calculate a target position relative to the palm.
